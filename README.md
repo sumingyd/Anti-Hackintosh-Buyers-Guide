@@ -1,29 +1,29 @@
-# Anti-Hackintosh Buyers Guide
+# 黑苹果避免购买硬件指南
 
 * [CPU](CPU.md)
-  * CPUs to avoid
+  * 避免使用的cpu
 * [GPU](GPU.md)
-  * GPUs that aren't supported AT ALL
-  * GPUs to avoid
-* [Motherboard](Motherboard.md)
-  * Chipsets to avoid
-  * Brands to avoid
-* [Storage](Storage.md)
-  * SSDs that aren't supported AT ALL
-  * SSDs to avoid
-* [RAM](RAM.md)
-  * General Guidance
-  * XMP and Sleep/Other Issues
-* [Cooler](Cooler.md)
-* [Networking](Networking.md)
-  * NICs cards to avoid
-* [Wireless](Wireless.md)
-  * Wireless cards that aren't supported AT ALL
-  * Wireless cards to avoid
-* [Power Supply](PSU.md)
-* [Case](Case.md)
-* [Thermal Paste](ThermalPaste.md)
+  * 完全不支持的gpu
+  * 避免使用的gpu
+* [主板](Motherboard.md)
+  * 要避免使用的芯片组
+  * 需要避免使用的品牌
+* [存储](Storage.md)
+  * 完全不支持的ssd
+  * 要避免使用的ssd
+* [内存](RAM.md)
+  * 总体指导
+  * XMP和睡眠/其他问题
+* [散热器](Cooler.md)
+* [网卡](Networking.md)
+  * 要避免使用的网卡
+* [无线](Wireless.md)
+  * 根本不支持的无线网卡
+  * 避免使用的无线卡
+* [电源](PSU.md)
+* [计算机辅助软件工程](Case.md)
+* [散热膏](ThermalPaste.md)
 
-# An introduction
+# 介绍
 
-So what is the Anti-Hackintosh Buyers Guide and why should you care about this post? Well, this is a guide of what not to buy when building a Hackintosh and will be kept up-to-date as new hardware comes out. While this guide won't give exact recommendations, it'll try and point you in the right direction.
+那么，什么是黑苹果玩家避免购买的指南?你为什么要关注这篇文章?好吧，这是一个构建黑苹果时不要购买的指南，随着新硬件的出现，将保持最新。虽然本指南不会给出确切的建议，但它会尝试为你指明正确的方向。
