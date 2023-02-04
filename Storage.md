@@ -1,32 +1,32 @@
-# Storage
+# 存储
 
-Storage is a section that can be quite confusing as there a lot of mixed reports regarding PCIe/NVMe based devices, many of these reports are based off old information from back when PCIe/NVMe drives were not natively supported like block size mattering or require kexts/.efi drivers. Well, High Sierra brought native support for these types of drives but certain ones still do not work and can cause instability if not removed/blocked out at an ACPI level.
+存储是一个非常令人困惑的部分，因为有很多关于基于PCIe/NVMe的设备的混合报告，其中许多报告是基于PCIe/NVMe驱动原生不支持时的旧信息，例如块大小很重要或需要kext /.Efi驱动。嗯，High Sierra为这些类型的驱动器提供了本地支持，但某些驱动器仍然不能工作，如果没有在ACPI级别上移除/屏蔽，可能会导致不稳定。
 
-The other big issue surrounds all Samsung NVMe drives, specifically that they're known to slow down macOS, not play well with TRIM and even create instability at times. This is due to the Phoenix controller found on Samsung drives that macOS isn't too fond of, much preferring the Phison controller found in Sabrent Rocket drives and Western Digital's in-house controllers(WD SN750). The easiest way to see this is with boot up, most systems running Samsung drives will have extra long boot times and have their drives run hotter due to the software TRIM failing(hardware TRIM still should be enabled but no partiality). Also some older Intel drives and Kingston NVMe drives also experience these issues.
+另一个大问题是，三星NVMe硬盘会降低macOS的运行速度，无法与TRIM兼容，有时甚至会造成不稳定。这是因为macOS不太喜欢三星硬盘上的Phoenix控制器，而更喜欢Sabrent Rocket drives和Western Digital的内部控制器(WD SN750)。最容易看到这是与开机，大多数系统运行三星驱动器将有额外长的启动时间，并有他们的驱动器运行更热，由于软件修剪失败(硬件修剪仍然应该启用，但没有偏心)。此外，一些旧的英特尔驱动器和金士顿NVMe驱动器也经历了这些问题。
 
-And while not an issue anymore, do note that all of Apple's PCIe drives are 4K sector-based so for best support only choose drives with such sectors.
+虽然不再是一个问题，但请注意，所有苹果的PCIe驱动器都是基于4K扇区的，因此为获得最佳支持，只选择具有此类扇区的驱动器。
 
-**Note for laptop users**: Intel SSDs don't always play nicely with laptops and can cause issues, avoid when possible
+**笔记本电脑用户注意**:英特尔ssd并不总是与笔记本电脑很好地兼容，可能会导致问题，尽可能避免
 
-**SSD/Storage Options that are NOT supported:**
+**SSD/机械不支持的选项:**
 
-* Any eMMC based storage (commonly found in netbooks, some tablets and low end computer models.)
-* Samsung PM981 and PM991(commonly found in OEM systems like laptops)
-  * Even if PM981 has been fixed with [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) version 1.0.2 there is still plenty of kernel panics issues
+* 任何基于eMMC的存储(常见于上网本、一些平板电脑和低端电脑型号)。
+* 三星PM981和PM991(通常用于笔记本电脑等OEM系统)
+  * 即使PM981已经用[NVMeFix](https://github.com/acidanthera/NVMeFix/releases) 1.0.2版本修复，仍然有很多内核异常问题
 * Micron 2200S
-  * Many users have report boot issues with this drive
+  * 许多用户报告这个驱动器有引导问题
 * SK Hynix PC711
-  * The proprietary Hynix NVMe controller on this drive is not supported at all, and it will not boot with macOS
+  * 此驱动器上的专有Hynix NVMe控制器根本不受支持，它将无法在macOS中启动
 
-**SSDs to avoid**
+**避免使用的ssd**
 
-Samsung:
+三星:
 
-* Samsung 970 Evo Plus (While not natively supported out of the box, a [firmware update from Samsung](https://www.samsung.com/semiconductor/minisite/ssd/download/tools/) will allow these drives to operate in macOS)
+* 三星970 Evo Plus(虽然不是本机支持开箱即用，但[三星的固件更新](https://www.samsung.com/semiconductor/minisite/ssd/download/tools/) 将允许这些驱动器在macOS中运行)
 
 Intel:
 
-* Intel 600p([Any fix for Intel 600p NVMe Drive? #1286](https://github.com/acidanthera/bugtracker/issues/1286))
-  * note the Intel 660p are fine
+* Intel 600p([Intel 600p NVMe驱动有修复吗? #1286](https://github.com/acidanthera/bugtracker/issues/1286))
+  * 注意英特尔660p是好的
 
-For all NVMe SSDs, its recommended to use [NVMeFix.kext](https://github.com/acidanthera/NVMeFix) to fix power and energy consumption on these drives
+对于所有NVMe ssd，建议使用 [NVMeFix.kext](https://github.com/acidanthera/NVMeFix) 来修复这些驱动器上的电源和能耗
