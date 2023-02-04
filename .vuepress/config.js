@@ -6,7 +6,7 @@ module.exports = {
     /**
      * Ref：https://v1.vuepress.vuejs.org/config/#title
      */
-    title: 'Anti-Hackintosh Buyers Guide',
+    title: '避免购买指南',
     /**
      * Ref：https://v1.vuepress.vuejs.org/config/#description
      */
@@ -50,49 +50,46 @@ module.exports = {
 
     themeConfig: {
         lastUpdated: true,
-        repo: 'https://github.com/dortania/Anti-Hackintosh-Buyers-Guide',
+        repo: 'https://github.com/sumingyd/Anti-Hackintosh-Buyers-Guide',
         editLinks: false,
         docsDir: '',
         editLinkText: '',
         logo: '/homepage.png',
         nav: [{
-            text: 'Dortania Guides',
+            text: '指南菜单',
             ariaLabel: 'Language Menu',
-            items: [{
-                text: 'Home Site',
-                link: 'https://dortania.github.io/'
+            items: [
+            {
+                text: '开始使用ACPI',
+                link: 'https://sumingyd.github.io/Getting-Started-With-ACPI/'
             },
             {
-                text: 'Getting Started With ACPI',
-                link: 'https://dortania.github.io/Getting-Started-With-ACPI/'
+                text: 'OpenCore安装指南',
+                link: 'https://sumingyd.github.io/OpenCore-Install-Guide/'
             },
             {
-                text: 'OpenCore Install Guide',
-                link: 'https://dortania.github.io/OpenCore-Install-Guide/'
+                text: 'OpenCore安装后',
+                link: 'https://sumingyd.github.io/OpenCore-Post-Install/'
             },
             {
-                text: 'OpenCore Post-Install',
-                link: 'https://dortania.github.io/OpenCore-Post-Install/'
+                text: '无线购买指南',
+                link: 'https://sumingyd.github.io/Wireless-Buyers-Guide/'
             },
             {
-                text: 'Wireless Buyers Guide',
-                link: 'https://dortania.github.io/Wireless-Buyers-Guide/'
-            },
-            {
-                text: 'GPU Buyers Guide',
-                link: 'https://dortania.github.io/GPU-Buyers-Guide/'
+                text: '显卡购买指南',
+                link: 'https://sumingyd.github.io/GPU-Buyers-Guide/'
             },
             ]
         },
             /*
               {
                 text: 'Github',
-                link: 'https://github.com/dortania/OpenCore-Install-Guide'
+                link: 'https://github.com/sumingyd/OpenCore-Install-Guide'
               }
             */
         ],
         sidebar: [{
-            title: 'Introduction',
+            title: '介绍',
             collapsable: false,
             sidebarDepth: 1,
             children: [
@@ -101,21 +98,21 @@ module.exports = {
 
         },
         {
-            title: 'What to avoid',
+            title: '应该避免什么',
             collapsable: false,
             sidebarDepth: 2,
             children: [
                 'CPU',
                 'GPU',
-				'Motherboard',
-				'Storage',
-				'RAM',
-				'Cooler',
-				'Networking',
-				'Wireless',
-				'PSU',
-				'Case',
-				'ThermalPaste',
+				'主板',
+				'存储',
+				'内存',
+				'散热',
+				'网卡',
+				'无线',
+				'电源',
+				'案例',
+				'散热膏',
             ]
         },
     ],
