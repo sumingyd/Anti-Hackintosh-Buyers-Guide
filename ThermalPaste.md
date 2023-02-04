@@ -1,3 +1,3 @@
-# Thermal Paste
+# 散热膏
 
-Don't use tooth paste, that's all I got to say. Nutella is the way to go #NUTELLAMASTERRACE
+不要用牙膏，这就是我要说的。Nutella是最佳选择 #NUTELLAMASTERRACE
