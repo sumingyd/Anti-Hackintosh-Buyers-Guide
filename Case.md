@@ -1,3 +1,3 @@
-# Case
+# 辅助控制程序软件
 
-If your shoe fits in it, your hack will likely boot in it
+如果你的鞋子适合它，你的黑客可能会启动它
