@@ -1,4 +1,4 @@
-# Power Supply
+# 电源
 
-~~If it has RGB in it, I will personally come to your house and force a Unibeast installer down your throat~~
-Just don't cheap out on your PSU but be reasonable with what you buy, RGB ain't a good purchasing decision
+~~如果它有RGB，我将亲自来到你的房子，强迫一个Unibeast安装程序到你的喉咙里~~
+只是不要在你的PSU上便宜，但要合理地购买，RGB不是一个好的购买决定
