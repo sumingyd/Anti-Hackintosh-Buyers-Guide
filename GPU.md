@@ -1,40 +1,40 @@
 # GPUs
 
-~~Get an RTX GPU, I want to see people suffer as they slowly realize that they don't even have support in High Sierra. Let the Nvidia fans die a slow and painful death, let this be a reminder to never cross our lord and savior Tim Apple~~
-If you don't want a headache, stay away from all Nvidia GPUs that aren't Kepler based. Currently(and likely forever), Turing and Volta GPUs have no support whatsoever in any version of macOS while Pascal and Maxwell have their support stopping in High Sierra while also requiring Web Drivers so they're not native GPUs(this is important because that means another point of failure)
+~~买一个RTX GPU，我想看到人们慢慢意识到他们在High Sierra甚至没有支持的时候受苦。让Nvidia的粉丝慢慢痛苦地死去，让这成为一个提醒，永远不要冒犯我们的主和救世主蒂姆·苹果~~
+如果你不想头疼，请远离所有非基于开普勒的Nvidia gpu。目前(很可能是永远)，图灵和Volta gpu在任何版本的macOS中都没有任何支持，而Pascal和Maxwell的支持在High Sierra中停止，同时也需要网络驱动，所以它们不是原生gpu(这很重要，因为这意味着另一个故障点)。
 
-> B-b-but are the drivers out yet?
+> 但。。但。。但是驱动程序们出来了吗?
 
-![Web Drivers](WebDrivers.gif)
+![Web 驱动](WebDrivers.gif)
 
-For GPUs we recommend, check out the [GPU Buyers Guide](https://dortania.github.io/GPU-Buyers-Guide/)
-And for those who are running unsupported GPUs, there's still hope for you! With our patent pending [**How to disable your unsupported GPU for macOS Guide**](https://dortania.github.io/Getting-Started-With-ACPI/Desktops/desktop-disable.html), even a simpleton like you can experience the glories of Mojave and beyond!
+GPU我们建议,看看 [显卡购买指南](https://sumingyd.github.io/GPU-Buyers-Guide/)
+对于那些运行不受支持的gpu的人，你仍然有希望!有了我们正在申请的专利 [**macOS中禁用不支持的显卡指南**](https://sumingyd.github.io/Getting-Started-With-ACPI/Desktops/desktop-disable.html)，即使是像你这样的傻瓜也可以体验Mojave的荣耀和超越!
 
-> Are there any GPU board partners I should avoid when buying a GPU?
+> 在购买GPU的时候，有什么GPU品牌是我应该避免的吗?
 
-Why I'm glad you asked, most manufactures actually have a pretty good track record with Hackintoshes but there's 2 specific brands to avoid. While it is possible to install with these GPUs, there still is a high possibility of issues arising like instability and black screens:
+为什么我很高兴你问这个问题，大多数制造商实际上在hackintosh上有很好的记录，但有两个特定的品牌需要避免。虽然可以安装这些gpu，但仍然有很高的可能性出现不稳定和黑屏等问题:
 
-* XFX(may work with CSM/legacy mode turned off, make sure it's in UEFI mode)
+* XFX(可能在CSM/legacy模式关闭的情况下工作，确保它在UEFI模式下)
 * PowerColor
-* MSI(Navi specifically, Vega and Polaris are fine)
+* MSI(特别是Navi, Vega和Polaris都可以)
 
-Note: AMD Navi support is still quite finicky, with WhateverGreen not being updated yet
+注意:AMD的Navi支持仍然是相当挑剔的，因为WhateverGreen还没有更新
 
-::: tip Recommendations
+::: tip 推荐
 
-So our overall recommendation for GPUs:
+所以我们对gpu的总体建议是:
 
-* Newer AMD GPUs:
-  * Polaris 10 and 20(RX 4XX, 5XX)
-  * Vega 10 and 20(RX Vega 56, 64 and VII)
+* 更新的AMD gpu:
+  * Polaris 10 和 20(RX 4XX, 5XX)
+  * Vega 10 和 20(RX Vega 56, 64 and VII)
   * Navi 10(RX 5XXX)
-* Overall brand recommendations:
-  * Sapphire
-  * Asus
-  * Gigabyte
+* 整体品牌推荐:
+  * 蓝宝石
+  * 华硕
+  * 技嘉
 :::
 
-**GPUs that aren't supported AT ALL**
+**不被支持的显卡**
 
 Ampere
 
@@ -73,7 +73,7 @@ Lexa
 * RX 540/X
 * RX 550/X
 
-**GPUs to avoid**
+**避免使用的显卡**
 
 Pascal
 
