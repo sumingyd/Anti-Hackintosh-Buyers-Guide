@@ -110,7 +110,7 @@ module.exports = {
 				'Cooler',
 				'Networking',
 				'Wireless',
-				'PowerSupply',
+				'PSU',
 				'Case',
 				'ThermalPaste',
             ]
