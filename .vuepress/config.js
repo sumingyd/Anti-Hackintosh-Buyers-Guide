@@ -53,7 +53,8 @@ module.exports = {
         repo: 'https://github.com/sumingyd/Anti-Hackintosh-Buyers-Guide',
         editLinks: false,
         docsDir: '',
-        editLinkText: '',
+        editLinkText: '在 GitHub 上编辑此页',
+        lastUpdated: '上次更新',
         logo: '/homepage.png',
         nav: [{
             text: '指南菜单',
