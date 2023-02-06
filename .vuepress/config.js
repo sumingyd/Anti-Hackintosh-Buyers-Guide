@@ -3,20 +3,8 @@ const {
 } = require('../package')
 
 module.exports = {
-    /**
-     * Ref：https://v1.vuepress.vuejs.org/config/#title
-     */
     title: '避免购买指南',
-    /**
-     * Ref：https://v1.vuepress.vuejs.org/config/#description
-     */
     description: description,
-
-    /**
-     * Extra tags to be injected to the page HTML `<head>`
-     *
-     * ref：https://v1.vuepress.vuejs.org/config/#head
-     */
     head: [
         ['meta', {
             name: 'theme-color',
@@ -36,13 +24,6 @@ module.exports = {
         },]
     ],
     base: '/Anti-Hackintosh-Buyers-Guide/',
-
-
-    /**
-     * Theme configuration, here is the default theme configuration for VuePress.
-     *
-     * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
-     */
     theme: 'vuepress-theme-succinct',
     globalUIComponents: [
         'ThemeManager'
@@ -91,12 +72,6 @@ module.exports = {
                 },
             ]
         },
-            /*
-              {
-                text: 'Github',
-                link: 'https://github.com/sumingyd/OpenCore-Install-Guide'
-              }
-            */
         ],
         sidebar: [{
             title: '介绍',
@@ -127,9 +102,7 @@ module.exports = {
         },
     ],
 },
-    /**
-     * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
-     */
+
     plugins: [
         ['@vuepress/back-to-top', true],//开启右下角返回顶层图标
         ['@vuepress/nprogress', true],//这个插件将会在你切换页面的时候，在顶部显示进度条。
