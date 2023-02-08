@@ -109,7 +109,7 @@ module.exports = {
     plugins: [
         ['@vuepress/back-to-top', true],//开启右下角返回顶层图标
         ['@vuepress/nprogress', true],//这个插件将会在你切换页面的时候，在顶部显示进度条。
-        ['vuepress-plugin-smooth-scroll', false],//在你的 VuePress 站点中使用平滑滚动。
+        ['vuepress-plugin-smooth-scroll', true],//在你的 VuePress 站点中使用平滑滚动。
         ['vuepress-plugin-fulltext-search', true],//基于 Headers 的搜索插件
         ['@vuepress/medium-zoom', {
             selector: ".theme-succinct-content :not(a) > img",
