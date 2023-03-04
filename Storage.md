@@ -10,8 +10,7 @@
 
 **SSD/机械不支持的选项:**
 
-* 任何基于eMMC的存储(常见于上网本、一些平板电脑和低端电脑型号)。
-* 三星PM981和PM991(通常用于笔记本电脑等OEM系统)
+* 三星PM981和PM991(常见于笔记本电脑等OEM系统)
   * 即使PM981已经用[NVMeFix](https://github.com/acidanthera/NVMeFix/releases) 1.0.2版本修复，仍然有很多内核异常问题
 * Micron 2200S
   * 许多用户报告这个驱动器有引导问题
